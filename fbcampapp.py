@@ -10,7 +10,7 @@ import streamlit as st
 import random
 
 
-st.title('Live Prediction Of Expected Conversion test5 sam')
+st.title('Live Prediction Of Expected Conversion test7 sam')
 
 df = pd.read_excel('Social_FB.xlsx')
 df
