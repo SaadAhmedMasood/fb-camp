@@ -14,7 +14,8 @@ import pandas as pd
 import joblib
 import random
 
-df = pd.read_excel('Social_FB.xlsx')
+#df = pd.read_excel('Social_FB.xlsx')
+df= pd.read_csv('Social_FB.csv')
 
 X = df.drop(columns=['approved_conversion'])
 y = df['approved_conversion']
