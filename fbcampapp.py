@@ -1,2 +1,14 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score
+#import matplotlib.pyplot as plt
+from sklearn.tree import plot_tree
 import streamlit as st
-st.title('Live Prediction Of Expected Conversion test6')
+import pandas as pd
+#import joblib
+import random
+st.title('Live Prediction Of Expected Conversion test2')
