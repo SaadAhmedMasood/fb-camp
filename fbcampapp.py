@@ -11,6 +11,8 @@ import streamlit as st
 import pandas as pd
 #import joblib
 import random
-st.title('Live Prediction Of Expected Conversion test2')
+st.title('Live Prediction Of Expected Conversion test3')
 
 df = pd.read_excel('Social_FB.xlsx')
+
+df
